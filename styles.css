@@ -1,2 +1,15 @@
+.checkbox-label {
+    color: red ;
+}
+.checkbox:checked + .checkbox-label {
+    color: black ;
+}
 
-/* Your CSS Code here. */
+.container {
+    padding: 20px !important ;
+    border: 1px solid gray ;
+}
+
+input , select {
+    margin-top: 10px;
+}
